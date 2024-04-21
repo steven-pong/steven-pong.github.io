@@ -1,0 +1,71 @@
+# Site settings
+title: Steven Pong
+email: contact@stevenpong.com
+url: https://steven-pong.github.io/
+description: "ICBM is an early stage venture fund."
+keywords: "Steven Pong"
+skills: "Official Web Site of the <b><u>REAL</u></b> Steven Pong since 2009"
+meta_author: Pong Steven
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 3d5772 #3D5772
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Steven Pong
+  location: Location
+  social: Around the Web
+  credits: About
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/
+  - title: facebook
+    url:
+  - title: linkedin
+    url: http://linkedin.com/
+  - title: bitbucket
+    url: http://bitbucket.org/
+  - title: github
+    url: http://github.com/steven-pong
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Canada
+  - line: 
+
+# Credits content
+credits: 'Official Web Site of the REAL Steven Pong since 2009.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
